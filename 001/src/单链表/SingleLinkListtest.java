@@ -113,8 +113,6 @@ class SingleLinkList2{
         this.head1 = head1;
     }
 }
-
-
 class SingleLinkList {
 
 

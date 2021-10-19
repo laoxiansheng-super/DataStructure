@@ -5,8 +5,6 @@ package 欧基里得算法_最大公约数;/*
 public class CommonDivisor {
     public static void main(String[] args) {
         System.out.println(gcd2(1, 3));
-
-
     }
 
 //    public static int  gcd(int a, int b) {
