@@ -14,12 +14,15 @@ public class queue {
         arrQueue.add(7);
         arrQueue.add(8);
         arrQueue.add(9);
-        arrQueue.head();
+//        arrQueue.head();
+//        System.out.println("--------------------");
+//
+        arrQueue.show();
         System.out.println("--------------------");
 
-        arrQueue.show();
+//        System.out.println(arrQueue.get());
         System.out.println(arrQueue.get());
-        System.out.println(arrQueue.get());
+        System.out.println("--------------------");
         arrQueue.show();
     }
 }
