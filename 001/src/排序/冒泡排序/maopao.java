@@ -3,8 +3,10 @@ package 排序.冒泡排序;/*
  */
 
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Date;
+import java.util.Stack;
 
 public class maopao {
     public static void main(String[] args) {
@@ -27,17 +29,26 @@ public class maopao {
 
         int arr [] ={33,32,22,18,14,3};
         int[] test = test(arr);
-        System.out.println(Arrays.toString(test));
+        String s = Arrays.toString(test);
+        System.out.println(s);
+        ArrayList<Object> objects = new ArrayList<>();
+        for (int i = test.length-1; i >=0 ; i--) {
+            objects.add(test[i]);
+        }
+        System.out.println(objects);
     }
     public static int [ ] test(int []arr){
+        int a=0;
         for (int i = 0; i < arr.length-1; i++) {
             for (int j = 0; j < arr.length-i-1; j++) {
                 if(arr[j]>arr[j+1]){
                     int num=arr[j];
                     arr[j]=arr[j+1];
                     arr[j+1]=num;
+                    a++;
                 }
             }
+            if (a==0){break;}
         }
         return arr;
     }
