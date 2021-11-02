@@ -58,8 +58,6 @@ class SingleLinkList2{
         Node temp = head1;
         boolean flag = false;
         while (true) {
-
-
             if (temp.next == null) {
                 break;
             }

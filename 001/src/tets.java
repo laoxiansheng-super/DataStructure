@@ -1,37 +1,39 @@
 import java.util.Arrays;
+import java.util.Collection;
 import java.util.Queue;
 import java.util.Stack;
+//
+public class tets  {
 
-public class tets extends a {
-
-
-
-
-
-
-
-
-
-
-
-//public  void sout(){
-//    System.out.println("123");
-//}
-}
-
-
-
-
-
-class aaa{
-    private  static int a=1;
-    static { System.out.println(a);}
 
     public static void main(String[] args) {
-        System.out.println(a);
+  a.sout();
+    }
 
-        a=3;
-        System.out.println(a);
+
+
+ class aaa{
+
+
+
+
+
+
+
+
+
+
+
+
+
+//    private  static int a=1;
+//    static { System.out.println(a);}
+//
+//    public static void main(String[] args) {
+//        System.out.println(a);
+//
+//        a=3;
+//        System.out.println(a);
     }
 
 
