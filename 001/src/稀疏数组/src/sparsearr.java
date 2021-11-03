@@ -45,6 +45,8 @@ sparsearr[0][2]=sum;
 
 
 
+
+
        int a= sparsearr[0][0];
        int b= sparsearr[0][1];
        int c= sparsearr[0][2];
@@ -52,6 +54,7 @@ sparsearr[0][2]=sum;
         for (int i = 1; i < sparsearr.length; i++) {
              arr2[sparsearr[i][0]][sparsearr[i][1]]=sparsearr[i][2];
         }
+
         for (int[] row2 : arr2) {
             for (int col2 : row2) {
                 System.out.printf("%2d",col2);
