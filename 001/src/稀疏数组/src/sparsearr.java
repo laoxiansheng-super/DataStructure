@@ -1,3 +1,5 @@
+package 稀疏数组.src;
+
 public class sparsearr {
     public static void main(String[] args) {
         int [][]arr=new int[11][11];
@@ -40,7 +42,9 @@ sparsearr[0][2]=sum;
         System.out.println();
 
         System.out.println("稀疏数组转二维数组");       
-        
+
+
+
        int a= sparsearr[0][0];
        int b= sparsearr[0][1];
        int c= sparsearr[0][2];
